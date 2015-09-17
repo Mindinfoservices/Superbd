@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="superbd.restaurant.login"
+    android:background="@drawable/background_login"
+    >
+
+    <com.facebook.login.widget.LoginButton android:id="@+id/loginwithfb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+
+        />
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/or_text"
+        android:text="@string/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:hint="Username"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="25dp"
+        android:background="@drawable/edittext_transparent"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittext_transparent"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_big"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_gravity="center_horizontal"
+        />
+
+    </LinearLayout>
+</LinearLayout>

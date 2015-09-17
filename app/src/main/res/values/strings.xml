@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Superb</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_restaurant_chooser">restaurant_chooser</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="title_activity_about_viewpager">about_viewpager</string>
+    <string name="title_activity_login">login</string>
+    <string name="or">Or</string>
+    <string name="or_with_email">Or with email</string>
+    <string name="action_login">Log in</string>
+    <string name="action_signup">Sign up</string>
+    <string name="login_with_facebook">Login in with Facebook</string>
+    <string name="Sign_up_with_facebook">Sign up with Facebook</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="agreement">By signing up I agree with the T&amp;C\'s</string>
+    <string name="title_activity_splashscreen">Superbd Restaurant</string>
+    <string name="facebook_app_id">1464242460548068</string>
+    <string name="title_activity_scrollview">scrollview</string>
+    <string name="title_activity_observablescroll">observablescroll</string>
+    <string name="title_activity_choose_city">choose_city</string>
+    <string name="select_a_location">Select a Location</string>
+    <string name="city_name">Indre By</string>
+    <string name="reservation_list">Reservations</string>
+    <string name="available_locations">Available Locations</string>
+    <string name="current_day">Today</string>
+    <string name="current_date">July 22, 2015</string>
+    <string name="current_hour">21</string>
+    <string name="current_minute">00</string>
+    <string name="continue_text">Continue</string>
+    <string name="dot">:</string>
+    <string name="people_count">2</string>
+    <string name="invite_friends_text">Choose friends</string>
+    <string name="title_activity_available_restaurants"></string>
+    <string name="restaurant_name_sample">Horno De Lenia</string>
+    <string name="restaurant_location_samples">TORSGADE 8, Norreport</string>
+    <string name="title_activity_keyword_search">keyword_search</string>
+    <string name="title_activity_table_booked"></string>
+    <string name="thankyou_text">Your table has been booked.\n\nThank you for being\n\nSuperb</string>
+    <string name="title_activity_category_chooser">category_chooser</string>
+    <string name="suggestions_string">Suggestions...</string>
+    <string name="title_activity_reservation_list">Reservation_list</string>
+    <string name="title_activity_show_map">showMap</string>
+    <string name="title_activity_available_restaurant_category">available_restaurant_category
+    </string>
+    <string name="title_activity_book_a_table">book_a_table</string>
+    <string name="title_activity_superbd_soon">superbd_soon</string>
+    <string name="superbd_soon_text">This restaurant\nwill be Superb\'d\nvery soon</string>
+    <string name="default_restaurant_name">Horno De Lenia</string>
+    <string name="default_restaurant_location">TORSGADE 8, NORREPORT</string>
+    <string name="default_restaurant_description">Lorem ipsum dolor sit amet, consectetur elit.\nVestibulum set eleifend mauris. Mauris velit est, faucibus non orci ut, ullamcorpoer consequat orci.</string>
+</resources>

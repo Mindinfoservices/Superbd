@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:theme="@style/CustomActionBar"
+    android:elevation="0dp">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_color_left"
+        style="?android:borderlessButtonStyle"/>
+
+
+
+
+
+</android.support.v7.widget.Toolbar>

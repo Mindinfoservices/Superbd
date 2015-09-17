@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_login"
+    tools:context="superbd.restaurant.keyword_search">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ic_color_left"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_vertical"
+            style="?android:borderlessButtonStyle"/>
+
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="fill_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="#111"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="actionGo"
+            android:inputType="text"
+            android:hint="Search..."/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:visibility="gone"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.75">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"
+            android:text="@string/suggestions_string"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            />
+
+
+
+        <GridView
+            android:id="@+id/gridview_categories"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.85"
+            android:numColumns="2"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:fastScrollEnabled="true"
+            ></GridView>
+        </LinearLayout>
+
+
+
+</LinearLayout>

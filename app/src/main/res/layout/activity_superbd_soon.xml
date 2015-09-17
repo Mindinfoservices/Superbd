@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="superbd.restaurant.superbd_soon">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/website"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            style="?android:borderlessButtonStyle"
+            android:background="@drawable/login_big"/>
+
+        <Button
+            android:id="@+id/phone"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            style="?android:borderlessButtonStyle"
+            android:background="@drawable/login_big"/>
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:background="@drawable/background_login">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/superbd_soon_text"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.4"
+            android:layout_above="@+id/restaurant_name"
+            android:layout_marginBottom="100dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/restaurant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/restaurant_location"
+            android:textColor="@color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/default_restaurant_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/restaurant_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_above="@+id/restaurant_description"
+            android:text="@string/default_restaurant_location"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/restaurant_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/default_restaurant_description"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/fav"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_fav"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"
+            style="?android:borderlessButtonStyle"
+            android:layout_above="@+id/restaurant_description"/>
+
+        </RelativeLayout>
+
+</LinearLayout>

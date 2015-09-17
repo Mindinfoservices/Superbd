@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="38dp"
+            android:id="@+id/circleView"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/name"
+            android:layout_marginLeft="16dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:text="Twinkle Mishra"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="#ffffff"
+            android:id="@+id/email"
+            android:layout_marginLeft="16dp"
+            android:text="twinklemishra679@gmail.com"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "colorPrimaryDark">#6d6e71</color>
+    <color name = "colorPrimary">#6d6e71</color>
+    <color name="white">#ffffff</color>
+    <color name="fbBlue">#3b5998</color>
+    <color name="textBrown">#66542217</color>
+    <color name="gray">#d3d3d3</color>
+    <color name="edittext_transparent_white">#18ffffff</color>
+    <color name="color_current_day">#7f152c</color>
+    <color name="color_date_text">#414042</color>
+    <color name="color_select_location">#784052</color>
+    <color name="color_available_location">#414042</color>
+    <color name="color_city_name">#414042</color>
+    <color name="color_menu">#6d6e71</color>
+    <color name="color_menu_open">#442e32</color>
+</resources>

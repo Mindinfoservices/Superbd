@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="superbd.restaurant.book_a_table">
+
+    <Button
+        android:id="@+id/book_table_button"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        style="?android:borderlessButtonStyle"
+        android:layout_weight="0.09"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+
+        >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/restaurant_image"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/restaurant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/restaurant_location"
+            android:text="Horno De Lenia"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/restaurant_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/restaurant_description"
+            android:text="TORSGADE 8, NORREPORT"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"/>
+
+
+        
+        <TextView
+            android:id="@+id/restaurant_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/default_restaurant_description"/>
+        <Button
+            android:id="@+id/fav"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_fav"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            style="?android:borderlessButtonStyle"
+            android:layout_above="@+id/restaurant_description"/>
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.11"></LinearLayout>
+
+</LinearLayout>

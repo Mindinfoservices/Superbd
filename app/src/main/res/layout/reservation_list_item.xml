@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/restaurant_name_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:text="Horno De Lenia"/>
+
+    <TextView
+        android:id="@+id/restaurant_address_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:text="Torsgade 8 Norreport"/>
+
+    <TextView
+        android:id="@+id/reservation_count"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Reservation for 2"/>
+
+    <TextView
+        android:id="@+id/reservation_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:text="Saturday 8th August, 18:00"/>
+
+</LinearLayout>

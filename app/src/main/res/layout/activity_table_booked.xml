@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_viewpager"
+    tools:context="superbd.restaurant.table_booked">
+
+  <include
+      android:id="@+id/tool_bar"
+      layout="@layout/table_booked_custom_tool_bar"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thankyou_text"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/got_it_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:text="Ok, I got it"
+        android:padding="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/textBrown"/>
+
+</RelativeLayout>
